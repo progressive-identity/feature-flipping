@@ -10,6 +10,14 @@ Don't forget to add a prebuild hook on the CleverCloud app to trigger the build 
 CC_PRE_BUILD_HOOK=./clevercloud/build.sh
 ```
 
+You also have to set the variable (for tryout)
+
+```
+IZANAMI_DATABASE=InMemory
+```
+
 If you want to customize the build script, edit `./clevercloud/build.sh`
 
 If you want to customize, [use env. variables](https://maif.github.io/izanami/manual/settings/settings.html)
+
+For this you to link your app with an addons like Redis for example. 
