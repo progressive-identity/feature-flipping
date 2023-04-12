@@ -1,6 +1,5 @@
 {
   "deploy": {
-    "jarName": "./izanami.jar",
-    "goal": "-Dhttp.port=8080 -Dlogger.file=./clevercloud/prod-logger.xml"
+    "jarName": "izanami.jar"
   }
 }
